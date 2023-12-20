@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Container from '@mui/material/Container';
-import Header from '../components/Header';
 import ProjectsGrid from '../components/ProjectsGrid';
 
 export default function Profile() {
@@ -39,7 +38,6 @@ export default function Profile() {
 
   return (
     <Container maxWidth="md">
-      <Header />
       <ProjectsGrid projectsData={projectsData} />
     </Container>
   );

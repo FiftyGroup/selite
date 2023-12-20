@@ -1,6 +1,7 @@
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import { lightBlue, grey } from '@mui/material/colors';
+import NavLink from './NavLink/NavLink';
 
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
       justifyContent="space-between"
     >
       <div style={{ marginLeft: '1rem' }}>Logo</div>
+      <NavLink />
       <Box
         sx={{ width: '8rem' }}
         display="flex"

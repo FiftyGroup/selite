@@ -1,9 +1,10 @@
-import "./App.css";
+import Container from "./componets/layout/Container";
 
 function App() {
 
   return (
     <>
+    <Container/>
     </>
   );
 }

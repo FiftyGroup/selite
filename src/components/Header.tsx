@@ -1,18 +1,20 @@
-import Avatar from "@mui/material/Avatar";
-import Box from "@mui/material/Box";
-import { lightBlue, grey } from "@mui/material/colors";
+import Avatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import { lightBlue, grey } from '@mui/material/colors';
+import NavLink from './NavLink/NavLink';
 
 export default function Header() {
   return (
     <Box
-      sx={{ width: "70vw", height: "4.5rem", bgcolor: grey[900] }}
+      sx={{ width: '70vw', height: '4.5rem', bgcolor: grey[900] }}
       display="flex"
       alignItems="center"
       justifyContent="space-between"
     >
-      <div style={{ marginLeft: "1rem" }}>Logo</div>
+      <div style={{ marginLeft: '1rem' }}>Logo</div>
+      <NavLink />
       <Box
-        sx={{ width: "8rem" }}
+        sx={{ width: '8rem' }}
         display="flex"
         alignItems="center"
         justifyContent="space-around"

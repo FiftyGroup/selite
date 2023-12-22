@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +49,11 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Header */
+
+.nav__header ul {
+  display: flex;
+  gap: 20px;
 }

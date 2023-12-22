@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.app-entry {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 ul,
 ol {
   list-style: none;

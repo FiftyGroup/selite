@@ -7,6 +7,7 @@ export default function NavLink() {
         <ul>
           <Link to="/">Home</Link>
           <Link to="/profile">Profile</Link>
+          <Link to="/login">Login</Link>
         </ul>
       </nav>
     </div>

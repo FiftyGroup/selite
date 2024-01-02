@@ -1,12 +1,13 @@
 import Box from '@mui/material/Box';
 import UserHeader from './UserInformation/UserHeader';
 import UserFollowers from './UserInformation/UserFollowers';
+import Button from '@mui/material/Button';
 
 export default function Aside() {
   return (
     <Box
       display="flex"
-      alignItems="flex-start"
+      alignItems="center"
       flexDirection="column"
       sx={{
         p: '2.5rem',
@@ -18,6 +19,19 @@ export default function Aside() {
     >
       <UserHeader />
       <UserFollowers />
+      <Button
+        sx={{
+          background: '#34184F',
+          fontSize: '1rem',
+          color: '#FFF',
+          fontWeight: 400,
+          padding: '.75rem 1.5rem',
+          borderRadius: '.625rem',
+          fontFamily: "'Poppins', sans-serif",
+        }}
+      >
+        Editar perfil
+      </Button>
     </Box>
   );
 }

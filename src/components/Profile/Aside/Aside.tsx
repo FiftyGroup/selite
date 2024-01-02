@@ -13,6 +13,7 @@ export default function Aside() {
         background:
           'linear-gradient(180deg, #A027FF 4.69%, rgba(0, 0, 0, 0.00) 100%);',
         borderRadius: '0.625rem',
+        width: '572px',
       }}
     >
       <UserHeader />

@@ -5,7 +5,11 @@ import { grey } from '@mui/material/colors';
 
 export default function UserHeader() {
   return (
-    <Box display="flex" sx={{ gap: '.75rem', mb: '2.5rem' }}>
+    <Box
+      display="flex"
+      justifyContent="center"
+      sx={{ gap: '.75rem', mb: '2.5rem', width: '100%' }}
+    >
       <Avatar
         alt="Remy Sharp"
         src="/static/images/avatar/1.jpg"

@@ -6,7 +6,7 @@ export default function UserFollowers() {
       display="flex"
       alignItems="center"
       justifyContent="center"
-      sx={{ gap: '1.25rem', width: '100%', mb: '2.5rem' }}
+      sx={{ gap: '1.25rem', width: '100%' }}
     >
       <Box display="flex" flexDirection="column" sx={{ gap: '0.375rem' }}>
         <Typography sx={{ fontSize: '1.5rem' }}>5</Typography>

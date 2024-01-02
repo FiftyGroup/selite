@@ -8,7 +8,7 @@ export default function UserHeader() {
     <Box
       display="flex"
       justifyContent="center"
-      sx={{ gap: '.75rem', mb: '2.5rem', width: '100%' }}
+      sx={{ gap: '.75rem', width: '100%' }}
     >
       <Avatar
         alt="Remy Sharp"

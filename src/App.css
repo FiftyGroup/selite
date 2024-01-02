@@ -20,6 +20,12 @@ a {
   color: #fff;
 }
 
+p {
+  margin: 0 !important;
+  padding: 0;
+  line-height: 1 !important;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

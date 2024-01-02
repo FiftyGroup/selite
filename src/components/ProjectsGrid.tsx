@@ -23,8 +23,8 @@ export default function ProjectsGrid({
   const isDesktop = useMediaQuery('(min-width:600px)');
 
   return (
-    <Box display="flex" flexWrap="wrap" maxWidth="70vw" >
-      <Grid container spacing={2} marginTop="2rem" maxWidth="70vw" >
+    <Box display="flex" flexWrap="wrap" maxWidth="70vw">
+      <Grid container spacing={2} marginTop="2rem" maxWidth="70vw">
         {projectsData.map((projectData) => (
           <Grid item xs={isDesktop ? 3 : 6}>
             <Card

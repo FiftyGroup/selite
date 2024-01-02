@@ -6,7 +6,12 @@ import NavLink from './NavLink/NavLink';
 export default function Header() {
   return (
     <Box
-      sx={{ width: '70vw', height: '4.5rem', bgcolor: grey[900] }}
+      sx={{
+        width: '70vw',
+        height: '4.5rem',
+        bgcolor: grey[900],
+        mb: '3.75rem',
+      }}
       display="flex"
       alignItems="center"
       justifyContent="space-between"

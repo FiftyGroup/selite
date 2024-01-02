@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Container from '@mui/material/Container';
 import ProjectsGrid from '../components/ProjectsGrid';
+import Aside from '../components/Profile/Aside/Aside';
 
 export default function Profile() {
   const [projectsData /** setProjectsData*/] = useState([
@@ -37,7 +38,16 @@ export default function Profile() {
   ]);
 
   return (
-    <Container maxWidth="md">
+    <Container
+      maxWidth="md"
+      sx={{
+        width: '70vw',
+        display: 'flex',
+        flexDirection: 'row',
+        gap: '1.25rem',
+      }}
+    >
+      <Aside />
       <ProjectsGrid projectsData={projectsData} />
     </Container>
   );

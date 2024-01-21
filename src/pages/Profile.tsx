@@ -43,7 +43,7 @@ export default function Profile() {
       sx={{
         width: '70vw',
         display: 'flex',
-        flexDirection: 'row',
+        flexDirection: 'column',
         gap: '1.25rem',
       }}
     >
